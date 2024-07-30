@@ -1,6 +1,6 @@
 # CRWN Tech
 
-Crwn Tech adalah perusahaan teknologi yang menyediakan berbagai layanan dan produk inovatif untuk memenuhi kebutuhan digital dan teknologi pelanggan.
+Crwn Tech adalah perusahaan teknologi yang berfokus pada inovasi dan kualitas. Kami menyediakan berbagai produk aksesoris komputer untuk menunjang produktivitas dalam bekerja di era digital ini. Dengan komitmen untuk memenuhi kebutuhan semua kalangan, baik pelajar maupun pekerja, Crwn Tech menjadi perusahaan terpercaya dalam menghadapi tantangan teknologi modern. Kunjungi kami untuk mendapatkan solusi aksesoris komputer yang disesuaikan dengan kebutuhan spesifik Anda dan bawa produktivitas Anda ke level berikutnya.
 
 ## Features
 
@@ -51,11 +51,15 @@ Start the server
 
 ## 🚀 About Me
 
-I'm a Junior Frontend dev, freshgradueate from UPNVJ Indonesia.
+I'm a passionate Junior Frontend Developer currently working at Sinarmas Land as an OutSystems Developer. I love creating interactive and visually appealing web applications. My goal is to continue growing as a developer and to contribute to innovative projects that make a difference.
 
 ## 🛠 Skills
 
-Javascript, HTML, CSS, Figma, React.js, Redux, SASS, Bootstrap
+- Languages: JavaScript, HTML, CSS
+- Frameworks & Libraries: React.js, Redux, Bootstrap, SASS
+- Design Tools: Figma
+- Development Methodologies: Agile
+- Tools: Confluence, OutSystems
 
 ## 🔗 Links
 
