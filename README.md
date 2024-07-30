@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CRWN Tech
 
-## Getting Started
+Crwn Tech adalah perusahaan teknologi yang menyediakan berbagai layanan dan produk inovatif untuk memenuhi kebutuhan digital dan teknologi pelanggan.
 
-First, run the development server:
+## Features
+
+- Shopping Cart Summary
+- responsive
+
+## Tech Stack
+
+**Client:** NextJs, SASS, ReduxToolkit
+
+**Server:** **None**
+
+## Demo
+
+Insert gif or link to demo
+
+## Screenshots
+
+[![App Screenshot](https://cdn.dribbble.com/userupload/15100569/file/original-806bede7952f140dc7633398cfd73213.png?resize=1600x1209)](https://dribbble.com/shots/24351658-Uptech-Tech-eCommerce-Website-UI-Kit)
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/tiedsandi/crwn-tech
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd crwn-tech
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Hi, I'm Fachran! 👋
 
-## Deploy on Vercel
+## 🚀 About Me
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I'm a Junior Frontend dev, freshgradueate from UPNVJ Indonesia.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🛠 Skills
+
+Javascript, HTML, CSS, Figma, React.js, Redux, SASS, Bootstrap
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://fachran-sandi.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fachransandi/)
