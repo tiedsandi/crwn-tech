@@ -1,4 +1,7 @@
-import Head from 'next/head';
+import {Open_Sans, Roboto_Condensed} from 'next/font/google';
+
+const openSans = Open_Sans({subsets: ['latin'], variable: '--font-heading'});
+const robotoCondensed = Roboto_Condensed({subsets: ['latin'], variable: '--font-body'});
 
 export const metadata = {
   title: 'Crwn Tech',
@@ -7,15 +10,10 @@ export const metadata = {
 
 export default function RootLayout({children}) {
   return (
-    <html lang='en'>
+    <html lang='en' className={`${openSans.variable} ${robotoCondensed.variable}`}>
       <head>
         <link rel='icon' href='/crown.svg' />
       </head>
-      <Head>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>{metadata.title}</title>
-        <meta name='description' content={metadata.description} />
-      </Head>
       <body>{children}</body>
     </html>
   );
