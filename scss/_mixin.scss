@@ -15,14 +15,30 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-@mixin textheading {
+@mixin text-heading {
   font-size: $font-main-heading;
   font-weight: $font-weight-bold;
 }
 
-@mixin textbody {
+@mixin text-body {
   font-size: $font-text;
   font-weight: $font-weight-regular;
+}
+
+@mixin text-link {
+  color: $color-text;
+  text-decoration: none !important;
+  transition: color 0.2s ease-in-out;
+
+  font-size: $font-small !important;
+
+  &:hover {
+    color: $color-background;
+  }
+}
+
+@mixin text-overline {
+  font-size: $font-text;
 }
 
 @mixin flex-center {

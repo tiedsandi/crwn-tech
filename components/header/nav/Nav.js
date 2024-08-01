@@ -1,9 +1,10 @@
 'use client';
 import React, {useState} from 'react';
-import classes from './nav.module.scss';
-import LogoIcon from '../../../public/crown.svg';
 import Image from 'next/image';
 import Link from 'next/link';
+
+import classes from './nav.module.scss';
+import LogoIcon from '../../../public/crown.svg';
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ function Nav() {
           style={{filter: 'invert(.9)'}}
           priority
         />
+
         <div
           className={`${classes.hamMenu} ${menuOpen ? classes.active : ''}`}
           onClick={() => setMenuOpen(!menuOpen)}>
@@ -26,6 +28,7 @@ function Nav() {
           <span></span>
           <span></span>
         </div>
+
         <div className={`${classes.offScreenMenu} ${menuOpen ? classes.active : ''}`}>
           <ul>
             <li>Catalogue</li>

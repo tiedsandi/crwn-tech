@@ -1,9 +1,36 @@
 @use '../../../scss/' as *;
 
+.nav {
+  // border: 1px solid greenyellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $space-sm;
+  @include text-overline();
+
+  ul {
+    @include flex-center();
+    gap: $space-sm;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .hamMenu {
+    display: none;
+  }
+
+  .offScreenMenu {
+    display: contents;
+  }
+}
+
 @include responsive {
   .nav {
     @include flex-center();
     @include fixed-position();
+    @include text-link();
     width: 80%;
   }
 
@@ -13,6 +40,7 @@
     margin-left: auto;
     position: relative;
     cursor: pointer;
+    display: block !important;
 
     span {
       display: block;
@@ -57,10 +85,12 @@
     @include fixed-position();
     top: 3.75rem;
     width: 100%;
-    transition: 0.3s ease;
     opacity: 0;
+    transition: 0.3s ease;
+    display: inline !important;
 
     ul {
+      display: block;
       &:last-child {
         @include flex-center();
         filter: invert(1);
