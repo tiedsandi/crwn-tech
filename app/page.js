@@ -1,5 +1,11 @@
-import './App.scss';
+import Header from '@/components/header/Header';
+import './Global.scss';
+import Classes from './app.module.scss';
 
 export default function Home() {
-  return <main>Test</main>;
+  return (
+    <main className={Classes.container}>
+      <Header />
+    </main>
+  );
 }

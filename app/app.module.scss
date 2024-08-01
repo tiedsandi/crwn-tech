@@ -1,0 +1,10 @@
+@use './scss/' as *;
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: $space-md;
+  @include responsive {
+    padding: 0;
+  }
+}

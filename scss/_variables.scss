@@ -2,6 +2,7 @@ $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
 
 $font-main-heading: 32px;
 $font-sub-heading: 24px;
@@ -9,8 +10,17 @@ $font-sub-heading: 24px;
 $font-text: 18px;
 $font-small: 14px;
 
+$font-weight-bold: 700;
+$font-weight-regular: 400;
+$font-weight-light: 300;
+
 $color-background: #343a40;
 $color-text: #f8f9fa;
+
+$space-sm: 0.625rem;
+$space-md: 1.25rem;
+$space-lg: 1.875rem;
+$space-xl: 2.5rem;
 
 // $font-headline: 'Open Sans', sans-serif;
 // $font-body: 'Roboto', sans-serif;
